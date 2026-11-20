@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+.parent {
+    display: flex;
+    width: 90%;
+    max-width: 1125px;
+    height: 500px;
+    margin: 20px auto;
+    border: 1px solid red;
+}
+.child {
+    width: 150px;
+    height: 75px;
+    border: 1px solid green;
+    flex-shrink: 0;
+}
+#parent1 {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+#parent2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#parent3 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+#parent4 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
+#parent5 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-start;
+}
+#parent6 {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#parent7 {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#parent8 {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#parent9 {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
