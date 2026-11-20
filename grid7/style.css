@@ -12,10 +12,6 @@ h2 {
     margin-bottom: 25px;
     border: 2px solid #696989;
 }
-.child {
-    padding: 10px;
-    border: 1px solid #696989;
-}
 #parent1 {
     grid-template-columns: repeat(4, 1fr);
 }
