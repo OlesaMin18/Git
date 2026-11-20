@@ -12,11 +12,6 @@
     margin-bottom: 25px;
     border: 2px solid #696989;
 }
-.child {
-    padding: 10px;
-    border: 1px solid #696989;
-    box-sizing: border-box;
-}
 #parent1 {
     grid-template-columns: 20% 1fr 1fr;
 }
