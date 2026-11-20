@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+.parent {
+    display: grid;
+    width: 600px;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 2px solid #696989;
+}
+.parent > div {
+    padding: 10px;
+    border: 1px solid #696989;
+    box-sizing: border-box;
+}
+#parent1 {
+    grid-template-columns: 100px 1fr 1fr;
+}
+#parent2 {
+    grid-template-columns: 100px 1fr 1.5fr 100px;
+}
