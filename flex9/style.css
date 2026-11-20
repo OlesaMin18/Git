@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+#parent1, #parent2, #parent3 {
+    display: flex;
+    width: 90%;
+    height: 500px;
+    margin: 20px auto;
+    border: 1px solid red;
+}
+.child {
+    border: 1px solid green;
+}
+#parent1 {
+    flex-direction: row;
+    justify-content: center;
+}
+#parent1 .child {
+    width: 150px;
+}
+#parent2 {
+    flex-direction: column;
+    justify-content: center;
+}
+#parent2 .child,
+#parent3 .child {
+    height: 50px;
+}
+#parent3 {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
