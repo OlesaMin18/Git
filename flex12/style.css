@@ -1,0 +1,49 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-left: 5px;
+}
+.parent, .parent2, .parent3 {
+    display: flex;
+    width: 1125px;
+    height: 500px;
+    margin: 10px auto 25px;
+    border: 1px solid red;
+}
+.child {
+    width: 125px;
+    height: 58px;
+    border: 1px solid green;
+    box-sizing: border-box;
+}
+.parent {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.parent .elem {
+    align-self: flex-end;
+}
+.parent2 {
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+.parent2 .child {
+    height: auto;
+}
+.parent2 .elem {
+    height: 50px;
+    align-self: center;
+}
+.parent3 {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.parent3 .elem {
+    align-self: center;
+}
