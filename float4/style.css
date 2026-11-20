@@ -3,27 +3,24 @@ body {
 }
 
 .parent {
-    width: 520px;
-    margin: 20px auto;
-    border: 1px solid red;
-    text-align: justify;
-    overflow: hidden;
+    border: 1px solid black;
+    padding: 24px 38px;
+    margin-bottom: 40px;
 }
 
 .child {
-    width: 125px;
-    height: 100px;
-    border: 1px solid green;
     float: left;
-}
-.parent2 {
-    height: 104px;
-    overflow: visible;
+    width: 125px;
+    height: 65px;
+    margin-right: 24px;
+    border: 1px solid green;
+    text-align: center;
 }
 
-.parent2 .child {
-    width: 200px;
-    height: 100px;
+.right {
+    float: right;
+    margin-right: 0;
+    margin-left: 24px;
 }
 
 .clearfix {
