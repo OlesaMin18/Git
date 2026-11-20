@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+}
+
+p {
+    font-size: 22px;
+}
+
+#block {
+    width: 750px;
+    height: 310px;
+    margin: 20px auto;
+    position: relative;
+    box-shadow: 0 0 10px lightgray;
+}
+
+#red {
+    width: 62px;
+    height: 62px;
+    border: 1px solid red;
+    position: absolute;
+    left: 106px;
+    top: 80px;
+}
+
+#blue {
+    width: 62px;
+    height: 62px;
+    border: 1px solid blue;
+    position: absolute;
+    left: 143px;
+    top: 117px;
+}
+
+#green {
+    width: 62px;
+    height: 62px;
+    border: 1px solid green;
+    position: absolute;
+    left: 181px;
+    top: 155px;
+}
