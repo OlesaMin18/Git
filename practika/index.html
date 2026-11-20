@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Моя первая страница</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="card">
+            <h1>Моя первая страница</h1>
+            <div class="photo-block">
+                <img src="Бу.jpg" alt="Котик" width="150" height="150">
+                <p>Меня зовут Минькаева Олеся,учусь на 3 курсе и это моя первая страница, созданная вручную в редакторе кода.</p>
+            </div>
+            <h3>Список 5 городов</h3>
+            <ol>
+                <li>Уфа</li>
+                <li>Москва</li>
+                <li>Казань</li>
+                <li>Санкт-Петербург</li>
+                <li>Тюмень</li>
+            </ol>
+            <p class="p1">Это моя первая страница, созданная вручную.</p>
+            <p class="p2">Я учусь программированию и осваиваю HTML.</p>
+            <p class="p3">Мне нравится город Уфа, где я живу и учусь.</p>
+            <p class="p4"> В свободное время я слушаю музыку, рисую и играю в игры вместе с друзьями, а ещё гуляю по городу и читаю книги.</p>
+            <p class="p5">Пятый абзац — красный текст. В будущем я хочу стать хорошим программистом.</p>
+            <p><a href="https://ufa.ru">Мой город</a></p>
+            <h3>Таблица</h3>
+            <table>
+                <tr>
+                    <th>Город</th>
+                    <th>Год основании</th>
+                    <th>Население</th>
+                </tr>
+                <tr>
+                    <td>Уфа</td>
+                    <td>1574</td>
+                    <td>1 100 000</td>
+                </tr>
+                <tr>
+                    <td>Казань</td>
+                    <td>1005</td>
+                    <td>1 300 000</td>
+                </tr>
+                <tr>
+                    <td>Москва</td>
+                    <td>1147</td>
+                    <td>12 000 000</td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="ramka1">
+            <div class="ramka2">
+                <div class="ramka3">
+                    Бууу
+                </div>
+            </div>
+        </div>
+        <div class="block">
+             <div class="inline">Вселенная</div>
+            <div class="inline">Стивена</div>
+            <div class="inline">Урааа</div>
+        </div>
+
+        <h1>CSS Flexbox Justify-Content</h1>
+        
+        <div class="flex-demo flex-start">
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+            <div class="box box3"></div>
+        </div>
+        <div class="flex-demo flex-end">
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+            <div class="box box3"></div>
+        </div>
+        <div class="flex-demo center">
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+            <div class="box box3"></div>
+        </div>
+        <div class="flex-demo space-between">
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+            <div class="box box3"></div>
+        </div>
+        <div class="flex-demo space-around">
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+            <div class="box box3"></div>
+        </div>
+        <div class="flex-demo space-evenly">
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+            <div class="box box3"></div>
+        </div>
+
+        <h1>CSS Flex Container Properties</h1>
+        
+        <div class="row-examples">
+            <div class="example-card">
+                <div class="container dir-row">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box new">NEW</div>
+                </div>
+                <p class="caption">flex-direction: row (DEFAULT)</p>
+            </div>
+            <div class="example-card">
+                <div class="container dir-row-reverse">
+                    <div class="box new">NEW</div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+                <p class="caption">flex-direction: row-reverse</p>
+            </div>
+            <div class="example-card">
+                <div class="container dir-column">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box new">NEW</div>
+                </div>
+                <p class="caption">flex-direction: column</p>
+            </div>
+            <div class="example-card">
+                <div class="container dir-column-reverse">
+                    <div class="box new">NEW</div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+                <p class="caption">flex-direction: column-reverse</p>
+            </div>
+        </div>
+        <div class="row-examples">
+            <div class="example-card">
+                <div class="container ai-stretch">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>
+                <p class="caption">align-items: stretch (DEFAULT)</p>
+            </div>
+            <div class="example-card">
+                <div class="container ai-start">
+                    <div class="box small"></div>
+                    <div class="box big"></div>
+                    <div class="box small"></div>
+                </div>
+                <p class="caption">align-items: flex-start</p>
+            </div>
+            <div class="example-card">
+                <div class="container ai-end">
+                    <div class="box small"></div>
+                    <div class="box big"></div>
+                    <div class="box small"></div>
+                </div>
+                <p class="caption">align-items: flex-end</p>
+            </div>
+            <div class="example-card">
+                <div class="container ai-center">
+                    <div class="box small"></div>
+                    <div class="box big"></div>
+                    <div class="box small"></div>
+                </div>
+                <p class="caption">align-items: center</p>
+            </div>
+        </div>
+       
+    </body>
+</html>
