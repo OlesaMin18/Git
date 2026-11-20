@@ -1,0 +1,17 @@
+.text {
+    width: 600px;
+    margin: 20px auto;
+    text-align: justify;
+}
+
+.picture1 {
+    width: 130px;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.picture2 {
+    width: 130px;
+    float: right;
+    margin: 0 0 10px 10px;
+}
