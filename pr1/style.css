@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-weight: normal;
+    margin-top: 25px;
+}
+
+#zadanie1, #zadanie2, #zadanie3, #zadanie4, #zadanie5 {
+    width: 520px;
+    height: 335px;
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+    box-shadow: 0 0 8px #ddd;
+}
+
+/* Задание №1 */
+#greenBorder {
+    width: 314px;
+    height: 252px;
+    border: 1px solid green;
+    position: absolute;
+    left: 103px;
+    top: 37px;
+}
+
+#redSquare {
+    width: 65px;
+    height: 64px;
+    border: 1px solid red;
+    position: absolute;
+    left: 167px;
+    top: 101px;
+}
+
+/* Задание №2 */
+#greenSquare {
+    width: 312px;
+    height: 250px;
+    background-color: #42e99b;
+    position: absolute;
+    left: 104px;
+    top: 37px;
+}
+
+#whiteSquare1, #whiteSquare2 {
+    width: 64px;
+    height: 64px;
+    background-color: white;
+    position: absolute;
+}
+
+#whiteSquare1 {
+    left: 134px;
+    top: 67px;
+}
+
+#whiteSquare2 {
+    left: 322px;
+    top: 193px;
+}
+
+/* Задание №3 */
+#trafficLight {
+    width: 127px;
+    height: 271px;
+    border: 1px solid black;
+    position: absolute;
+    left: 196px;
+    top: 34px;
+}
+
+#redLight, #yellowLight, #greenLight {
+    width: 64px;
+    height: 64px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 30px;
+}
+
+#redLight {
+    background-color: red;
+    top: 31px;
+}
+
+#yellowLight {
+    background-color: yellow;
+    top: 100px;
+}
+
+#greenLight {
+    background-color: green;
+    top: 169px;
+}
+
+/* Задание №4 */
+#face {
+    width: 312px;
+    height: 312px;
+    background-color: #42e99b;
+    border-radius: 50%;
+    position: absolute;
+    left: 104px;
+    top: 20px;
+}
+
+#eye1, #eye2 {
+    width: 64px;
+    height: 64px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 43px;
+}
+
+#eye1 {
+    left: 62px;
+}
+
+#eye2 {
+    left: 186px;
+}
+
+#nose {
+    width: 44px;
+    height: 44px;
+    background-color: white;
+    position: absolute;
+    left: 134px;
+    top: 125px;
+}
+
+#mouth {
+    width: 125px;
+    height: 12px;
+    background-color: white;
+    position: absolute;
+    left: 94px;
+    top: 218px;
+}
+
+/* Задание №5 */
+#smileFace {
+    width: 250px;
+    height: 250px;
+    background-color: #c4d20b;
+    border-radius: 50%;
+    position: absolute;
+    left: 135px;
+    top: 20px;
+}
+
+#eye3, #eye4 {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 43px;
+}
+
+#eye3 {
+    left: 50px;
+}
+
+#eye4 {
+    left: 150px;
+}
+
+#nose2 {
+    width: 44px;
+    height: 44px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 103px;
+    top: 124px;
+}
+
+#smile {
+    width: 116px;
+    height: 32px;
+    border-bottom: 8px solid white;
+    border-radius: 0 0 60% 60%;
+    position: absolute;
+    left: 67px;
+    top: 175px;
+}
+
