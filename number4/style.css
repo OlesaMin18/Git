@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#block {
+    width: 750px;
+    height: 310px;
+    margin: 20px auto;
+    position: relative;
+    box-shadow: 0 0 10px lightgray;
+}
+
+#red {
+    width: 62px;
+    height: 62px;
+    background-color: lightcoral;
+    position: absolute;
+    left: 106px;
+    top: 100px;
+}
+
+#blue {
+    width: 62px;
+    height: 62px;
+    background-color: mediumslateblue;
+    position: absolute;
+    left: 143px;
+    top: 137px;
+}
+
+#green {
+    width: 62px;
+    height: 62px;
+    background-color: mediumspringgreen;
+    position: absolute;
+    left: 181px;
+    top: 175px;
+}
