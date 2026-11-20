@@ -1,46 +1,40 @@
 body {
     font-family: Arial, sans-serif;
 }
+
 h2 {
-    font-size: 18px;
     font-weight: normal;
 }
+
 .parent {
     display: flex;
-    width: 1125px;
-    height: 500px;
-    margin: 20px auto;
-    border: 1px solid red;
-}
-.child {
-    width: 125px;
-    height: 75px;
-    border: 1px solid green;
-    box-sizing: border-box;
-}
-.parent.example1 {
     justify-content: center;
     align-items: center;
+    width: 350px;
+    height: 300px;
+    margin-bottom: 20px;
+    border: 1px solid red;
 }
-.example1 .elem {
-    align-self: flex-end;
+
+.child {
+    width: 50px;
+    height: 50px;
+    border: 1px solid green;
 }
-.parent.example2 {
-    justify-content: center;
-    align-items: stretch;
+
+.elem {
+    order: 1;
+    border-color: red;
 }
-.example2 .child {
-    height: auto;
+
+#parent2 {
+    flex-direction: row-reverse;
 }
-.example2 .elem {
-    height: 75px;
-    align-self: center;
-}
-.parent.example3 {
+
+#parent3 {
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
 }
-.example3 .elem {
-    align-self: center;
+
+#parent4 {
+    flex-direction: column-reverse;
 }
