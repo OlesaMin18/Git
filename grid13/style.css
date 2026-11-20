@@ -1,0 +1,35 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    text-align: center;
+    font-weight: normal;
+}
+#parent1, #parent2, #parent3, #parent4, #parent5 {
+    display: grid;
+    width: 600px;
+    height: 240px;
+    padding: 10px;
+    margin: 10px auto 30px;
+    border: 2px solid #696989;
+}
+#parent1 > div, #parent2 > div, #parent3 > div, #parent4 > div, #parent5 > div {
+    padding: 10px;
+    border: 1px solid #696989;
+    box-sizing: border-box;
+}
+#parent1 {
+    grid-template: 1fr 2fr / 1fr 2fr 2fr 4fr;
+}
+#parent2 {
+    grid-template: 1fr 2fr / 2fr 1fr 1fr 2fr;
+}
+#parent3 {
+    grid-template: 1fr 1fr 2fr 4fr / 0.5fr 1.5fr 3fr;
+}
+#parent4 {
+    grid-template: 2fr 1fr 1fr / 2fr 1fr 2fr 1fr;
+}
+#parent5 {
+    grid-template: repeat(2, 1fr) / 0.5fr 0.5fr 1fr 2fr 2fr;
+}
