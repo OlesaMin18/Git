@@ -5,6 +5,7 @@
 h2{
     font-weight: normal;
 }
+
 #parnet1, #parnet2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
