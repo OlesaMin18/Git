@@ -22,8 +22,6 @@ h2 {
     background-color: white;
     box-shadow: 0 0 8px #ddd;
 }
-
-/* Задание №1 */
 #greenBorder {
     width: 314px;
     height: 252px;
@@ -42,7 +40,6 @@ h2 {
     top: 101px;
 }
 
-/* Задание №2 */
 #greenSquare {
     width: 312px;
     height: 250px;
@@ -55,21 +52,20 @@ h2 {
 #whiteSquare1, #whiteSquare2 {
     width: 64px;
     height: 64px;
-    background-color: white;
+    background-color: rgb(207, 207, 207);
     position: absolute;
 }
 
 #whiteSquare1 {
-    left: 134px;
+    left: -31px;
     top: 67px;
 }
 
 #whiteSquare2 {
-    left: 322px;
+    left: 445px;
     top: 193px;
 }
 
-/* Задание №3 */
 #trafficLight {
     width: 127px;
     height: 271px;
@@ -103,7 +99,6 @@ h2 {
     top: 169px;
 }
 
-/* Задание №4 */
 #face {
     width: 312px;
     height: 312px;
@@ -149,7 +144,6 @@ h2 {
     top: 218px;
 }
 
-/* Задание №5 */
 #smileFace {
     width: 250px;
     height: 250px;
